@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36,31,37);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#registroForm{
+    background-color: rgb(225, 224, 216);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline{
+    display: inline-block;
+}
+
+input, select{
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: rgb(78,108,134);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(110,141,169);
+}
+
+.error{
+    color: rgb(142,48,44);
+    font-size: 11px;
+}
